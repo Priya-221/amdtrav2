@@ -1,11 +1,4 @@
-language: python
-python: 3.6
-env:
-  - TOXENV=py26
-  - TOXENV=py27
-  - TOXENV=py35
-  - TOXENV=py36
-install:
-  - pip install tox
-script:
-  - tox
+language: ruby
+rvm:
+ - 2.2
+ - jruby
